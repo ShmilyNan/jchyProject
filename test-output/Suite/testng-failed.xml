@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="mailTitle" value="Webdriver-自动化测试报告"/>
+  <parameter name="UserName" value="LanceTest@126.com"/>
+  <parameter name="appName" value="com.cdwh.lottery_1.0.9_20180507-release.apk"/>
+  <parameter name="smtpPort" value="25"/>
+  <parameter name="reportTitle" value="Webdriver-自动化测试报告"/>
+  <parameter name="nodeURL" value="127.0.0.1:4723"/>
+  <parameter name="smtpPassWord" value="shmily0610"/>
+  <parameter name="reportUrl" value=""/>
+  <parameter name="deviceName" value="emulator-5554"/>
+  <parameter name="appMainPackage" value="com.cdwh.lottery"/>
+  <parameter name="PassWord" value="shmily0610"/>
+  <parameter name="appActivity" value="com.cdwh.lottery.activity.SplashActivity"/>
+  <parameter name="smtpHost" value="smtp.126.com"/>
+  <parameter name="smtpUserName" value="LanceTest@126.com"/>
+  <parameter name="recipients" value="LanceTest@yeah.net"/>
+  <parameter name="driverName" value="AndroidDriver"/>
+  <parameter name="sdkVersion" value="5.1.1"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="logUrl" value=""/>
+  <listeners>
+    <listener class-name="com.whcd.lotteryappui.utils.TestListener"/>
+    <listener class-name="com.whcd.lotteryappui.utils.TestReport"/>
+  </listeners>
+  <test thread-count="5" name="登录测试(failed)">
+    <classes>
+      <class name="com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test">
+        <methods>
+          <include name="openResult"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test -->
+    </classes>
+  </test> <!-- 登录测试(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<passed>
+<pass_assert_info   method="LoginTest.login">
+<span class="pass_span">验证是否登录成功！:pass</span></br>
+</pass_assert_info>
+</passed>

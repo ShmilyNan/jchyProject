@@ -1,0 +1,22 @@
+pages:
+    - page:
+       pageName: com.whcd.lotteryappui.pageObject.StartPage
+       value: "www.baidu.com"
+       desc: "微信APP启动首页"
+       locators:
+          - {type: "id",timeout: "3",value: "com.tencent.mm:id/c72",desc: "登录",name: "登录"}
+          - {type: "id",timeout: "3",value: "com.tencent.mm:id/c71",desc: "创建账号",name: "创建账号"}
+    - page:
+        pageName: com.whcd.lotteryappui.pageObject.LoginPage
+        value: ""
+        desc: "微信App登录页面"
+        locators:
+          - {type: "id",timeout: "3" ,value: "com.cdwh.lottery:id/phone", desc: "账号",name: "账号输入框"}
+          - {type: "id",timeout: "3" ,value: "com.cdwh.lottery:id/password", desc: "密码",name: "密码输入框"}
+          - {type: "id",timeout: "3" ,value: "com.cdwh.lottery:id/login", desc: "登录",name: "登录按钮"}
+          - {type: "xpath",timeout: "3" ,value: "//*[contains(@text,'账号或密码错误')]", desc: "失败toast提示信息",name: "登录失败提示信息"}
+          - {type: "xpath",timeout: "3" ,value: "//*[contains(@text,'账号或密码错误')]", desc: "失败toast提示信息",name: "登录失败确认按钮"}
+
+
+
+

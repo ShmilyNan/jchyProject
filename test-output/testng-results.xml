@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1043" started-at="2018-05-15T10:30:28Z" finished-at="2018-05-15T10:30:29Z">
+    <groups>
+    </groups>
+    <test name="登录测试" duration-ms="1043" started-at="2018-05-15T10:30:28Z" finished-at="2018-05-15T10:30:29Z">
+      <class name="com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test@6646153]" name="setup" is-config="true" duration-ms="26350" started-at="2018-05-15T10:30:02Z" finished-at="2018-05-15T10:30:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AndroidDriver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1:4723]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.cdwh.lottery_1.0.9_20180507-release.apk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5.1.1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[com.cdwh.lottery]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[com.cdwh.lottery.activity.SplashActivity]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test@6646153]" name="beforeclass" is-config="true" duration-ms="0" started-at="2018-05-15T10:30:28Z" finished-at="2018-05-15T10:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="FAIL" signature="login()[pri:0, instance:com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test@6646153]" name="login" duration-ms="624" started-at="2018-05-15T10:30:28Z" description="登录测试" finished-at="2018-05-15T10:30:29Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC-20161102VFY4', ip: '192.168.1.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_172'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC-20161102VFY4', ip: '192.168.1.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_172'
+Driver info: driver.version: AndroidDriver
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at org.openqa.selenium.By$ById.findElement(By.java:218)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at com.whcd.lotteryappui.utils.ElementAction.getElement(ElementAction.java:879)
+at com.whcd.lotteryappui.utils.ElementAction$3.apply(ElementAction.java:801)
+at com.whcd.lotteryappui.utils.ElementAction$3.apply(ElementAction.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+at com.whcd.lotteryappui.utils.ElementAction.findElement(ElementAction.java:796)
+at com.whcd.lotteryappui.action.LoginAction.<init>(LoginAction.java:16)
+at com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test.login(LoginPage_002_Login_Success_Test.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+... 41 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="openResult()[pri:0, instance:com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test@6646153]" name="openResult" is-config="true" duration-ms="9" started-at="2018-05-15T10:30:29Z" finished-at="2018-05-15T10:30:29Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC-20161102VFY4', ip: '192.168.1.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_172'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC-20161102VFY4', ip: '192.168.1.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_172'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:115)
+at java.util.Optional.orElseGet(Unknown Source)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:204)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:104)
+at com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test.openResult(LoginPage_002_Login_Success_Test.java:70)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openResult -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test@6646153]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-15T10:30:29Z" depends-on-methods="com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test.openResult" finished-at="2018-05-15T10:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test -->
+    </test> <!-- 登录测试 -->
+  </suite> <!-- Suite -->
+</testng-results>

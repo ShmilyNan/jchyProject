@@ -1,0 +1,27 @@
+[2018-05-15 18:19:25,488] INFO  com.whcd.lotteryappui.utils.TestBaseCase ------------------开始执行测试---------------
+[2018-05-15 18:19:25,491] INFO  com.whcd.lotteryappui.utils.TestBaseCase 通过cmd命令启动appium server
+[2018-05-15 18:19:25,493] INFO  com.whcd.lotteryappui.utils.ElementAction 等待10秒
+[2018-05-15 18:19:35,494] INFO  com.whcd.lotteryappui.utils.TestBaseCase 读取xml配置：Mobile Driver:AndroidDriver；Appium Server:http://127.0.0.1:4723/wd/hub
+[2018-05-15 18:19:49,924] INFO  com.whcd.lotteryappui.utils.TestListener 测试用例:登录测试---start
+[2018-05-15 18:19:49,976] INFO  com.whcd.lotteryappui.utils.ElementAction 查找元素：账号输入框方式[By.id:com.cdwh.lottery:id/phone]
+[2018-05-15 18:19:51,140] ERROR com.whcd.lotteryappui.utils.TestListener 0
+[2018-05-15 18:19:51,348] ERROR com.whcd.lotteryappui.utils.TestListener 0
+[2018-05-15 18:20:35,164] INFO  com.whcd.lotteryappui.utils.TestBaseCase ------------------开始执行测试---------------
+[2018-05-15 18:20:35,167] INFO  com.whcd.lotteryappui.utils.TestBaseCase 通过cmd命令启动appium server
+[2018-05-15 18:20:35,169] INFO  com.whcd.lotteryappui.utils.ElementAction 等待10秒
+[2018-05-15 18:20:45,169] INFO  com.whcd.lotteryappui.utils.TestBaseCase 读取xml配置：Mobile Driver:AndroidDriver；Appium Server:http://127.0.0.1:4723/wd/hub
+[2018-05-15 18:20:51,870] INFO  com.whcd.lotteryappui.utils.TestListener 测试用例:登录测试---start
+[2018-05-15 18:20:51,901] INFO  com.whcd.lotteryappui.utils.ElementAction 查找元素：账号输入框方式[By.id:com.cdwh.lottery:id/phone]
+[2018-05-15 18:20:52,971] ERROR com.whcd.lotteryappui.utils.TestListener 0
+[2018-05-15 18:20:53,147] ERROR com.whcd.lotteryappui.utils.TestListener 0
+[2018-05-15 18:30:02,452] INFO  com.whcd.lotteryappui.utils.TestBaseCase ------------------开始执行测试---------------
+[2018-05-15 18:30:02,463] INFO  com.whcd.lotteryappui.utils.TestBaseCase 通过cmd命令启动appium server
+[2018-05-15 18:30:02,466] INFO  com.whcd.lotteryappui.utils.ElementAction 等待10秒
+[2018-05-15 18:30:12,466] INFO  com.whcd.lotteryappui.utils.TestBaseCase 读取xml配置：Mobile Driver:AndroidDriver；Appium Server:http://127.0.0.1:4723/wd/hub
+[2018-05-15 18:30:28,812] INFO  com.whcd.lotteryappui.utils.TestListener 测试用例:登录测试---start
+[2018-05-15 18:30:28,869] INFO  com.whcd.lotteryappui.utils.ElementAction 查找元素：账号输入框方式[By.id:com.cdwh.lottery:id/phone]
+[2018-05-15 18:30:29,433] ERROR com.whcd.lotteryappui.utils.TestListener 0
+[2018-05-15 18:30:29,827] ERROR com.whcd.lotteryappui.utils.ScreenShot 错误截图：E:\MyTest\eclipse\eclipse-workspace\app\test-output\snapshot\登录测试0.jpg
+[2018-05-15 18:30:29,834] ERROR com.whcd.lotteryappui.utils.TestListener 测试用例: 登录测试--failed
+[2018-05-15 18:30:29,834] INFO  com.whcd.lotteryappui.utils.TestListener 测试用例:登录测试---end
+[2018-05-15 18:31:34,962] ERROR com.whcd.lotteryappui.utils.SendMail 发送邮件失败！

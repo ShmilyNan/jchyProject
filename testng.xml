@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+    <parameter name="driverName" value="AndroidDriver" />   <!--driver驱动：安卓，IOS-->
+    <parameter name="nodeURL" value="127.0.0.1:4723" /> <!--appium-server 地址-->
+    <parameter name="appName" value="com.cdwh.lottery_1.0.9_20180507-release.apk" />  <!--app包名字-->
+    <parameter name="platformName" value="Android" /> <!--app运行平台:安卓，IOS-->
+    <parameter name="deviceName" value="emulator-5554" /> <!--手机或者虚拟机设备名字-->
+    <parameter name="sdkVersion" value="5.1.1" /><!--安卓,IOS SDK版本-->
+    <!-- 
+    <parameter name="appMainPackage" value="com.tencent.mm" />	
+    <parameter name="appActivity" value="com.tencent.mm.ui.LauncherUI" /> 
+    -->
+    <!--微信app 主类名-->
+    <!--微信app主包名-->
+     
+    <parameter name="appMainPackage" value="com.cdwh.lottery" /><!--测试app主包名-->
+    <parameter name="appActivity" value="com.cdwh.lottery.activity.SplashActivity" /> <!--测试app 主类名-->
+    <parameter name="UserName" value="LanceTest@126.com" /> <!-- 系统登录用户名-->
+    <parameter name="PassWord" value="shmily0610" />  <!-- 系统登录密码-->
+    <parameter name="smtpUserName" value="LanceTest@126.com" />  <!-- 测试报告邮件发送：smtp身份证验证-->
+    <parameter name="smtpPassWord" value="shmily0610" />  <!-- 测试报告邮件发送：smtp身份证验证-->
+    <parameter name="smtpHost" value="smtp.126.com" />  <!-- 测试报告邮件发送：smtp主机地址-->
+    <parameter name="smtpPort" value="25" />  <!-- 测试报告邮件发送：smtp主机端口-->
+    <parameter name="mailTitle" value="Webdriver-自动化测试报告" />  <!-- 测试报告邮件发送：邮件标题-->
+    <parameter name="logUrl" value="" />  <!-- 测试报告邮件发送：用例运行日志url-->
+    <parameter name="reportUrl" value="" />  <!-- 测试报告邮件发送：完整测试报告url-->
+    <parameter name="recipients" value="LanceTest@yeah.net" /> <!-- 测试报告邮件发送：收件人，多个用,号隔开-->
+    <parameter name="reportTitle" value="Webdriver-自动化测试报告" />  <!--测试报告标题-->
+
+    <listeners><!-- 监听器设置-->
+        <listener class-name="com.whcd.lotteryappui.utils.TestListener"/>
+        <listener class-name="com.whcd.lotteryappui.utils.TestReport"/>
+    </listeners>
+    <test name="登录测试">
+        <classes>
+            <class name="com.whcd.lotteryappui.testcase.login.LoginPage_002_Login_Success_Test">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <!-- 
+    <test name="登录失败测试：数据驱动">
+        <classes>
+            <class name="LoginTest">
+                <methods>
+                    <include name="loginFail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    -->
+</suite> <!-- Suite -->
